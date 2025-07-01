@@ -6,3 +6,48 @@
 # Datasource local storage ignored files
 /dataSources/
 /dataSources.local.xml
+
+# Rust
+/target/
+Cargo.lock  # Only ignore for libraries, keep for applications
+**/*.rs.bk
+*.pdb
+
+# IDE/Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Logs
+*.log
+logs/
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Build artifacts
+dist/
+build/
+
+# Temporary files
+tmp/
+temp/
