@@ -1,6 +1,6 @@
 # Default ignored files
 /shelf/
-/workspace.xml
+/.idea/workspace.xml
 # Editor-based HTTP Client requests
 /httpRequests/
 # Datasource local storage ignored files
@@ -19,6 +19,7 @@ Cargo.lock  # Only ignore for libraries, keep for applications
 *.swp
 *.swo
 *~
+*.iml
 
 # OS generated files
 .DS_Store
@@ -47,6 +48,7 @@ pids
 # Build artifacts
 dist/
 build/
+target/
 
 # Temporary files
 tmp/
