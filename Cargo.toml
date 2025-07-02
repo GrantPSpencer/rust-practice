@@ -5,3 +5,5 @@ edition = "2024"
 publish = ["external"]
 
 [dependencies]
+rand = "0.8.5"
+
